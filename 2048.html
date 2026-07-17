@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2048 Game</title>
+  <link rel="stylesheet" href="2048.css">
+</head>
+<body>
+  <div class="game">
+    <div class="game-header">
+      <div>
+        <h1>2048</h1>
+        <p>화살표, WASD 또는 터치로 이동하세요</p>
+      </div>
+      <div class="score-panel">
+        <div class="score-box">
+          <span>Score</span>
+          <strong id="score">0</strong>
+        </div>
+        <div class="score-box best-box">
+          <span>Best</span>
+          <strong id="best-score">0</strong>
+        </div>
+        <div class="buttons">
+          <button id="undo">Undo</button>
+          <button id="new-game">새 게임</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-board" id="board"></div>
+    <div class="game-message" id="message">
+      <div id="message-text"></div>
+      <button id="message-button">다시 시작</button>
+    </div>
+  </div>
+
+  <script src="2048.js"></script>
+</body>
+</html>

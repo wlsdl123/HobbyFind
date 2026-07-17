@@ -1,0 +1,147 @@
+:root {
+  --bg: #f6f4ed;
+  --card: #fff;
+  --border: #d3c7b5;
+  --text: #42392f;
+  --accent: #d68f66;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.worldcup {
+  width: min(620px, 100%);
+  background: #fff;
+  border-radius: 24px;
+  border: 1px solid rgba(66, 57, 47, 0.12);
+  box-shadow: 0 16px 40px rgba(100, 84, 74, 0.08);
+  padding: 28px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 12px 0 0;
+  color: #6d6258;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0 16px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.round-info,
+.match-info {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+#restart,
+#play-again {
+  padding: 12px 18px;
+  background: var(--accent);
+  color: white;
+}
+
+.matchup {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 18px;
+  align-items: center;
+}
+
+.candidate {
+  min-height: 260px;
+  padding: 0;
+  border: 2px solid var(--border);
+  border-radius: 20px;
+  background: var(--card);
+  color: var(--text);
+  font-size: 1.1rem;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 220px auto;
+}
+
+.candidate:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: 0 16px 26px rgba(214, 143, 102, 0.2);
+}
+
+.candidate__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.candidate__label {
+  padding: 16px;
+  font-weight: 700;
+  background: #fff;
+}
+
+.vs {
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: #8d7a6d;
+}
+
+.result {
+  text-align: center;
+}
+
+.result h2 {
+  margin: 0 0 18px;
+}
+
+.winner {
+  padding: 22px;
+  border-radius: 18px;
+  border: 2px dashed var(--accent);
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  background: #fff4ec;
+}
+
+@media (max-width: 720px) {
+  .matchup {
+    grid-template-columns: 1fr;
+  }
+
+  .vs {
+    display: none;
+  }
+}
