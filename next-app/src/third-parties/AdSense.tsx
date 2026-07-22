@@ -9,11 +9,15 @@ const LOAD_ADSENSE = process.env.NEXT_PUBLIC_LOAD_ADSENSE === 'true';
 export default function AdSense() {
   if (process.env.NODE_ENV !== 'production' && !LOAD_ADSENSE) return null;
 
+  // 프로덕션 환경에서는 head에 스크립트를 삽입하도록 beforeInteractive로 설정하여
+  // AdSense 콘솔의 "애드센스 코드 스니펫" 검증 요구사항을 충족시킵니다.
+  const strategy = process.env.NODE_ENV === 'production' || LOAD_ADSENSE ? 'beforeInteractive' : 'afterInteractive';
+
   return (
     <>
       <Script
         id="adsense-sdk"
-        strategy="afterInteractive"
+        strategy={strategy}
         src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
         crossOrigin="anonymous"
       />
