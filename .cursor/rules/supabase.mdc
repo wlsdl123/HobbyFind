@@ -1,0 +1,8 @@
+# Supabase rules placeholder
+
+# This file is required by EasyNext CLI for Supabase integration.
+# If this CLI expects a template, replace this content with the correct supabase rule definition.
+
+[rule]
+name = "supabase"
+description = "Supabase integration rule placeholder"
