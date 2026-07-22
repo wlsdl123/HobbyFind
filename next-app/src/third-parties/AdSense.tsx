@@ -1,32 +1,28 @@
-'use client';
+"use client";
 
-import Script from 'next/script';
+import Script from "next/script";
+import React from "react";
 
-export const ADSENSE_CLIENT_ID = 'ca-pub-4594302000032785';
+export const ADSENSE_CLIENT_ID = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || 'ca-pub-4594302000032785';
+const LOAD_ADSENSE = process.env.NEXT_PUBLIC_LOAD_ADSENSE === 'true';
 
 export default function AdSense() {
-  // 프로덕션 환경에서만 스크립트 로드
-  if (process.env.NODE_ENV !== 'production') {
-    return null;
-  }
+  if (process.env.NODE_ENV !== 'production' && !LOAD_ADSENSE) return null;
 
   return (
     <>
-      <script
-        async
-        src={`"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}"`}
+      <Script
+        id="adsense-sdk"
+        strategy="afterInteractive"
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
         crossOrigin="anonymous"
-      ></script>
+      />
     </>
   );
 }
 
-// AdSense 광고 컴포넌트
 export function AdSenseAd({ slot, style = {} }: { slot: string; style?: React.CSSProperties }) {
-  // 프로덕션 환경에서만 광고 표시
-  if (process.env.NODE_ENV !== 'production') {
-    return null;
-  }
+  if (process.env.NODE_ENV !== 'production' && !LOAD_ADSENSE) return null;
 
   return (
     <div style={{ display: 'block', textAlign: 'center', ...style }}>
@@ -39,9 +35,7 @@ export function AdSenseAd({ slot, style = {} }: { slot: string; style?: React.CS
         data-full-width-responsive="true"
       />
       <Script id={`adsense-ad-${slot}`} strategy="afterInteractive">
-        {
-          `(adsbygoogle = window.adsbygoogle || []).push({});`
-        }
+        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
       </Script>
     </div>
   );
