@@ -1,0 +1,7 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#F5F7FF" />
+  <path d="M130 100H170L150 170H210L190 100H230" stroke="#3730A3" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M240 110H280" stroke="#4338CA" stroke-width="18" stroke-linecap="round" />
+  <path d="M240 150H280" stroke="#4338CA" stroke-width="18" stroke-linecap="round" />
+  <text x="200" y="270" text-anchor="middle" fill="#312E81" font-family="Inter, sans-serif" font-size="28" font-weight="700">코딩</text>
+</svg>

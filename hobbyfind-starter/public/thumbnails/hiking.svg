@@ -1,0 +1,7 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#E9F5EF" />
+  <path d="M90 190C140 140 185 120 240 110C300 100 320 120 350 165" stroke="#2F855A" stroke-width="18" stroke-linecap="round" />
+  <circle cx="90" cy="190" r="18" fill="#2F855A" />
+  <circle cx="350" cy="165" r="18" fill="#2F855A" />
+  <text x="200" y="270" text-anchor="middle" fill="#276749" font-family="Inter, sans-serif" font-size="28" font-weight="700">등산</text>
+</svg>

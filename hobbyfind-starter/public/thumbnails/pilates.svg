@@ -1,0 +1,7 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#EFFBF5" />
+  <path d="M150 170C180 150 230 140 260 120" stroke="#0E9F6E" stroke-width="16" stroke-linecap="round" />
+  <path d="M180 110C190 90 220 80 240 90" stroke="#0E9F6E" stroke-width="16" stroke-linecap="round" />
+  <circle cx="200" cy="180" r="38" fill="#0E9F6E" opacity="0.2" />
+  <text x="200" y="270" text-anchor="middle" fill="#1E6D4B" font-family="Inter, sans-serif" font-size="28" font-weight="700">필라테스</text>
+</svg>

@@ -26,6 +26,16 @@ const config = {
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
           foreground: 'hsl(var(--secondary-foreground))',
+          50: '#F6F7F8',
+          100: '#ECEEF0',
+          200: '#D8DDE2',
+          300: '#C1C7CF',
+          400: '#97A1AE',
+          500: '#6B7280',
+          600: '#4B5563',
+          700: '#374151',
+          800: '#1F2937',
+          900: '#111827',
         },
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
@@ -46,6 +56,36 @@ const config = {
         card: {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
+        },
+        brand: {
+          50: '#FFF8F7',
+          100: '#FFEFEA',
+          200: '#FFD9CF',
+          300: '#FFB8A5',
+          400: '#FF8C73',
+          500: '#FF5A5F',
+          600: '#E14D52',
+          700: '#C33F45',
+          800: '#A13238',
+          900: '#7E272D',
+        },
+        green: {
+          500: '#22C55E',
+        },
+        yellow: {
+          500: '#F59E0B',
+        },
+        red: {
+          500: '#EF4444',
+        },
+        neutral: {
+          background: '#FFFFFF',
+          surface: '#FFFFFF',
+          card: '#FFFFFF',
+          border: '#E5E7EB',
+          divider: '#F3F4F6',
+          textPrimary: '#222222',
+          textSecondary: '#717171',
         },
       },
       borderRadius: {

@@ -1,0 +1,10 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#F5F3FF" />
+  <rect x="120" y="80" width="160" height="140" rx="20" fill="#4338CA" opacity="0.15" />
+  <path d="M140 100H260" stroke="#4338CA" stroke-width="12" />
+  <path d="M140 140H260" stroke="#4338CA" stroke-width="12" />
+  <path d="M140 180H260" stroke="#4338CA" stroke-width="12" />
+  <circle cx="170" cy="125" r="12" fill="#4338CA" />
+  <circle cx="230" cy="205" r="12" fill="#4338CA" />
+  <text x="200" y="270" text-anchor="middle" fill="#3730A3" font-family="Inter, sans-serif" font-size="28" font-weight="700">체스</text>
+</svg>

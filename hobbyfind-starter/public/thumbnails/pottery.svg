@@ -1,0 +1,6 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#FEF3C7" />
+  <path d="M150 160C150 140 170 120 200 120C230 120 250 140 250 160C250 180 230 200 200 200C170 200 150 180 150 160Z" fill="#D97706" />
+  <path d="M175 124C175 116 183 108 200 108C217 108 225 116 225 124" stroke="#92400E" stroke-width="12" />
+  <text x="200" y="270" text-anchor="middle" fill="#92400E" font-family="Inter, sans-serif" font-size="28" font-weight="700">도예</text>
+</svg>

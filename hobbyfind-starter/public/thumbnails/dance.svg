@@ -1,0 +1,7 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#FEF2F2" />
+  <path d="M120 200C150 150 190 120 230 140C260 155 290 160 320 130" stroke="#BE123C" stroke-width="18" stroke-linecap="round" />
+  <circle cx="150" cy="180" r="16" fill="#BE123C" />
+  <circle cx="280" cy="140" r="16" fill="#BE123C" />
+  <text x="200" y="270" text-anchor="middle" fill="#9D174D" font-family="Inter, sans-serif" font-size="28" font-weight="700">댄스</text>
+</svg>

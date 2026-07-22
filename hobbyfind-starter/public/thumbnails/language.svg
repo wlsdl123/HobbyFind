@@ -1,0 +1,8 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#F7F2FF" />
+  <circle cx="200" cy="140" r="62" fill="#8B5CF6" opacity="0.2" />
+  <path d="M140 126H170L132 182" stroke="#6D28D9" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M233 124L210 182" stroke="#6D28D9" stroke-width="18" stroke-linecap="round" />
+  <path d="M170 160H230" stroke="#6D28D9" stroke-width="18" stroke-linecap="round" />
+  <text x="200" y="270" text-anchor="middle" fill="#4C1D95" font-family="Inter, sans-serif" font-size="28" font-weight="700">언어</text>
+</svg>

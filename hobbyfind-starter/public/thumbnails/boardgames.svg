@@ -1,0 +1,9 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#EFF6FF" />
+  <path d="M100 140H300" stroke="#4338CA" stroke-width="18" stroke-linecap="round" />
+  <path d="M160 110V170" stroke="#4338CA" stroke-width="18" stroke-linecap="round" />
+  <path d="M240 110V170" stroke="#4338CA" stroke-width="18" stroke-linecap="round" />
+  <circle cx="140" cy="190" r="16" fill="#4338CA" />
+  <circle cx="260" cy="190" r="16" fill="#4338CA" />
+  <text x="200" y="270" text-anchor="middle" fill="#312E81" font-family="Inter, sans-serif" font-size="28" font-weight="700">보드</text>
+</svg>

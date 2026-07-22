@@ -1,0 +1,8 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#EEF2FF" />
+  <path d="M120 110H280" stroke="#4338CA" stroke-width="18" stroke-linecap="round" />
+  <path d="M120 150H280" stroke="#4338CA" stroke-width="18" stroke-linecap="round" />
+  <path d="M120 190H220" stroke="#4338CA" stroke-width="18" stroke-linecap="round" />
+  <path d="M140 80L160 110L140 140" stroke="#4338CA" stroke-width="16" stroke-linecap="round" fill="none" />
+  <text x="200" y="270" text-anchor="middle" fill="#312E81" font-family="Inter, sans-serif" font-size="28" font-weight="700">글쓰기</text>
+</svg>

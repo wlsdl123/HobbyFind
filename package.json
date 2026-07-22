@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "cd hobbyfind-starter && npm run dev",
     "start": "node server.js",
     "heroku-postbuild": "cd diary && npm install && npm run build"
   },

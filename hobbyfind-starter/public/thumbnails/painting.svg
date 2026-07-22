@@ -1,0 +1,7 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#FFF7ED" />
+  <path d="M140 90H260" stroke="#F97316" stroke-width="22" stroke-linecap="round" />
+  <path d="M160 120L140 180H260L240 120" stroke="#C2410C" stroke-width="18" stroke-linecap="round" fill="#FDBA74" />
+  <circle cx="200" cy="150" r="40" fill="#F97316" opacity="0.28" />
+  <text x="200" y="270" text-anchor="middle" fill="#C2410C" font-family="Inter, sans-serif" font-size="28" font-weight="700">수채화</text>
+</svg>

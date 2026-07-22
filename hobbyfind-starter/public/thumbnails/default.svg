@@ -1,0 +1,8 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="32" fill="#F8FAFC" />
+  <rect x="24" y="24" width="352" height="232" rx="24" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" />
+  <circle cx="120" cy="110" r="30" fill="#FF5A5F" />
+  <rect x="176" y="78" width="136" height="126" rx="18" fill="#C1C7CF" />
+  <path d="M82 178C106 146 138 158 162 134" stroke="#4B5563" stroke-width="14" stroke-linecap="round" />
+  <text x="200" y="255" text-anchor="middle" fill="#6B7280" font-family="Inter, sans-serif" font-size="24">HobbyFind</text>
+</svg>

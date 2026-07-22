@@ -1,0 +1,7 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#FFEBE8" />
+  <circle cx="200" cy="140" r="70" fill="#FF5A5F" opacity="0.2" />
+  <path d="M180 120C180 106.745 190.745 96 204 96H228C241.255 96 252 106.745 252 120V200C252 213.255 241.255 224 228 224H204C190.745 224 180 213.255 180 200V120Z" fill="#FF5A5F" />
+  <rect x="196" y="92" width="16" height="24" rx="8" fill="#FFFFFF" />
+  <text x="200" y="270" text-anchor="middle" fill="#9E2A2D" font-family="Inter, sans-serif" font-size="28" font-weight="700">요가</text>
+</svg>

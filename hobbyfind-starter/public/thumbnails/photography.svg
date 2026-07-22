@@ -1,0 +1,8 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#EFF6FF" />
+  <rect x="120" y="90" width="160" height="110" rx="20" fill="#1D4ED8" opacity="0.15" />
+  <circle cx="200" cy="145" r="32" fill="#1D4ED8" />
+  <path d="M170 115L160 104" stroke="#1D4ED8" stroke-width="12" stroke-linecap="round" />
+  <path d="M240 185L250 196" stroke="#1D4ED8" stroke-width="12" stroke-linecap="round" />
+  <text x="200" y="270" text-anchor="middle" fill="#1E40AF" font-family="Inter, sans-serif" font-size="28" font-weight="700">사진</text>
+</svg>

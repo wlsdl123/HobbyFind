@@ -1,0 +1,8 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#F8FAFC" />
+  <circle cx="200" cy="120" r="70" fill="#FF5A5F" opacity="0.18" />
+  <path d="M130 180C160 160 190 140 210 146C230 152 260 180 290 190" stroke="#D94648" stroke-width="18" stroke-linecap="round" />
+  <line x1="140" y1="140" x2="180" y2="120" stroke="#D94648" stroke-width="16" stroke-linecap="round" />
+  <line x1="260" y1="140" x2="300" y2="120" stroke="#D94648" stroke-width="16" stroke-linecap="round" />
+  <text x="200" y="265" text-anchor="middle" fill="#9D174D" font-family="Inter, sans-serif" font-size="28" font-weight="700">운동형</text>
+</svg>

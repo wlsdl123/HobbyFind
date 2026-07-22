@@ -1,0 +1,7 @@
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="280" rx="24" fill="#FEF3C7" />
+  <path d="M120 170C160 120 220 110 280 120" stroke="#EA580C" stroke-width="18" stroke-linecap="round" />
+  <path d="M180 100C200 80 240 80 260 100" stroke="#C2410C" stroke-width="16" stroke-linecap="round" />
+  <circle cx="200" cy="170" r="44" fill="#F97316" opacity="0.2" />
+  <text x="200" y="270" text-anchor="middle" fill="#9A3412" font-family="Inter, sans-serif" font-size="28" font-weight="700">플로우</text>
+</svg>
